@@ -1,5 +1,5 @@
 let numerosGerados = []; // Array para armazenar os números já sorteados
-let limiteNumero = 10; // Limite superior do número secreto
+let limiteNumero = 100; // Limite superior do número secreto
 let numeroSecreto = gerarNumeroAleatorio(); // Número secreto inicial
 let totalTentativas = 1; // Contador de tentativas
 
@@ -32,7 +32,7 @@ function atualizarTexto(seletor, texto){
 // Função para exibir a mensagem inicial no jogo
 function exibirMensagemInicial(){
     atualizarTexto("h1", "🤔 Número Secreto 🤔");
-    atualizarTexto("p", "Escolha um número entre 1 e 10");
+    atualizarTexto("p", "Escolha um número entre 1 e 100");
 }
 
 exibirMensagemInicial(); // Exibe a mensagem inicial ao carregar a página
